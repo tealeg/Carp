@@ -1,0 +1,4 @@
+(system-include "stdlib.h")
+
+;; Causes abnormal process termination.
+(register abort (Fn [] ()))
